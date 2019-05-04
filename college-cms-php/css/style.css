@@ -1,0 +1,227 @@
+/* ------------------------------Variables----------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ----------------------------------Fonts---------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,700");
+/* ------------------------------------------------------------------------- */
+/* ------------------------------Normalize---------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ----------------------------Utilities Classes---------------------------- */
+/* Headings */
+.h1 {
+  font-size: 7.2rem;
+}
+
+.h2 {
+  font-size: 6rem;
+}
+
+.h3 {
+  font-size: 4rem;
+}
+
+.h4 {
+  font-size: 3.2rem;
+}
+
+.h5 {
+  font-size: 2.4rem;
+}
+
+.h6 {
+  font-size: 1.8rem;
+}
+
+/* Colors */
+.text-primary {
+  color: dodgerblue;
+}
+
+.compulsory {
+  color: red;
+}
+
+/* Lists, Anchors */
+.nav-ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list {
+  margin: 0 1.2rem;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+/* Forms */
+.form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1rem;
+}
+
+.form-control {
+  width: 100%;
+  text-align: center;
+  height: 4rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+
+.form-control-textarea {
+  height: 10rem;
+}
+
+.btn {
+  padding: 1.2rem 3.2rem;
+}
+
+.btn-submit {
+  background: #fff;
+  color: dodgerblue;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-submit:hover {
+  background: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-reset {
+  background: #fff;
+  color: #910404;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-reset:hover {
+  background: #910404;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------- */
+/* -----------------------------Base Settings------------------------------- */
+html, body {
+  background: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* -------------------------------Navbar------------------------------------ */
+#navbar {
+  background: #333333;
+  padding: 1.6rem;
+}
+
+#navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar .container #logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#navbar .container #logo a {
+  color: #fff;
+}
+
+#navbar .container #navbar-ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1.6rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .container #navbar-ul li a {
+  background: #fff;
+  color: dodgerblue;
+  padding: 1.2rem 3.2rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#navbar .container #navbar-ul li a:hover {
+  background: dodgerblue;
+  color: #fff;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------Modals----------------------------------- */
+#register {
+  background: #f4f4f4;
+  margin: 10rem auto;
+  font-size: 1.6rem;
+  max-width: 900px;
+  padding: 2rem;
+}
+
+#register h3 {
+  font-weight: 400;
+  text-align: center;
+  color: dodgerblue;
+  padding: 1rem;
+}
+
+#register p {
+  font-size: 1.6rem;
+  color: #444;
+  text-align: center;
+  padding: 1rem;
+}
+
+#register label {
+  display: block;
+}
+
+/* ------------------------------------------------------------------------- */
+/*# sourceMappingURL=style.css.map */

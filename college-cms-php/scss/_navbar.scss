@@ -1,0 +1,44 @@
+/* -------------------------------Navbar------------------------------------ */
+
+#navbar {
+    background: $navbar-color;
+    padding: 1.6rem;
+    // border: 1px solid red;
+
+    .container {
+        display: flex;
+        
+        #logo {
+            flex: 1;
+            // border: 1px solid green;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        #navbar-ul {
+            flex: 1;
+            font-size: 1.6rem;
+            // border: 1px solid blue;
+            justify-content: flex-end;
+            align-items: center;
+
+            li {
+                a {
+                    background: #fff;
+                    color: $primary-color;
+                    padding: 1.2rem 3.2rem;
+                    transition: all 0.4s;
+                    &:hover {
+                        background: $primary-color;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------- */
+

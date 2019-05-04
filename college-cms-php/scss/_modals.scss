@@ -1,0 +1,28 @@
+/* ------------------------------Modals----------------------------------- */
+
+#register {
+  background: #f4f4f4;
+  margin: 10rem auto;
+  font-size: 1.6rem;
+  max-width: 900px;
+  padding: 2rem;
+  h3 {
+    font-weight: 400;
+    text-align: center;
+    color: $primary-color;
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: #444;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  label {
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
